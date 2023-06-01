@@ -1,12 +1,18 @@
 # BackHUB
 to teleport Player to hub server
-COMMANDS :
+
+# COMMANDS
+```
 /hub
+```
 
-PERMISSION
+#PERMISSION
+```
 backhub.command
+```
 
----
+#PLUGIN.YML
+```
 name: BackHUB
 api: 4.0.0
 main: BackHUB\Wlntz\Main
@@ -25,4 +31,4 @@ commands:
 permissions:
  backhub.command:
   default: true
-  ---
+  ```
